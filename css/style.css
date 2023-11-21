@@ -1,0 +1,293 @@
+header #menu {
+    display: flex;
+    background-color: rgba(0, 0, 0, 0);
+    justify-content: space-between;
+    color: white;
+    align-items: center;
+    font-family: sans-serif;
+    position: fixed;
+    z-index: 777;
+    padding: 0px 50px;
+    width: 99%;
+}
+
+header #menu .logo a,
+nav ul {
+    display: flex;
+    align-items: center;
+    padding: 20px 0px;
+}
+
+.logo h1 {
+    font-size: 1.9em;
+}
+
+.logo p {
+    font-size: 13px;
+    margin: 3px 0px 0px 5px;
+}
+
+#menu nav li a {
+    margin: 0px 30px;
+    transition: 0.4s;
+}
+
+#menu nav li a:hover {
+    color: rgb(173, 92, 30);
+
+}
+
+
+main #vine {
+    display: flex;
+    justify-content: center;
+    background-image: url(../Images/1.jpg);
+    /* position: absolute; */
+
+
+}
+
+main #vine .bar {
+    color: rgb(255, 255, 255);
+    background-color: #0d0c11;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 250px 250px 0px 0px;
+    font-family: sans-serif;
+    align-items: center;
+    position: absolute;
+    z-index: 2;
+    transform: translateY(170px);
+    width: 35%;
+    padding: 40px;
+}
+
+#vine .bar h2 {
+    font-size: 0.9em;
+    margin: 20px;
+}
+
+#vine .bar h1 {
+    font-size: 8em;
+    margin: 20px;
+}
+
+#vine .bar h3 {
+    font-size: 0.9em;
+    margin-bottom: 20px;
+}
+
+#vine .bar button {
+    border: 1px solid white;
+    color: white;
+    background-color: black;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    transition: 0.4s;
+    margin-bottom: 50px;
+}
+
+#vine .bar button:hover {
+    color: black;
+    background-color: white;
+}
+
+#vine .bar .line {
+    width: 280px;
+    height: 1.5px;
+    background-color: white;
+    margin-bottom: 30px;
+}
+
+#vine .bar p {
+    font-size: 0.8em;
+}
+
+main,
+footer {
+    background-color: #0d0c11;
+}
+
+#about {
+    color: white;
+    margin-top: -50px;
+
+}
+
+#about .aboutus {
+    display: flex;
+    padding: 100px 150px;
+}
+
+#about .aboutus .title {
+    margin: 0px 100px 0px 0px;
+    width: 30%;
+}
+
+#about .aboutus .title h1 {
+    font-size: 4em;
+    font-family: sans-serif;
+}
+
+#about .aboutus .title p {
+    font-size: 1.3em;
+}
+
+#about .aboutus .text {
+    width: 40%;
+    font-size: 1em;
+}
+
+#about .line {
+    text-align: center;
+    width: 80%;
+    transform: translateX(13%);
+    height: 1px;
+    background-color: white;
+    /* padding: 0px 150px; */
+}
+
+#what {
+    padding: 100px 150px;
+    color: white;
+    font-family: sans-serif;
+}
+
+#what .on h1 {
+    font-size: 3em;
+    margin-bottom: 100px;
+}
+
+#what .onediv {
+    display: flex;
+    justify-content: center;
+}
+
+#what .onediv .image,
+#what .onediv .title {
+    width: 50%;
+}
+
+#what .onediv .title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 100px;
+}
+
+#what .onediv .title h3 {
+    font-size: 1.4em;
+    margin: 20px 0px;
+}
+
+#what .onediv .title h2 {
+    font-size: 1.9em;
+    margin: 20px 0px;
+}
+
+#what .onediv .title p {
+    margin: 5px 0px;
+}
+
+#what .onediv .title button {
+    border: 1px solid white;
+    color: white;
+    background-color: black;
+    padding: 15px 20px;
+    font-size: 1.3em;
+    width: 40%;
+    margin: 30px 0px;
+    transition: .5s;
+}
+
+#what .onediv .title button:hover {
+    background-color: white;
+    color: black;
+}
+
+.onediv {
+    margin-bottom: 50px;
+}
+
+#come .this h1 {
+    font-size: 4em;
+    font-family: sans-serif;
+    text-align: center;
+    margin: 100px;
+    color: white;
+}
+
+#come .gallery .big-image,
+.small-image {
+    width: 50%;
+    padding: 10px;
+}
+
+#come .gallery {
+    display: flex;
+}
+
+#come .gallery .small-image {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#come .gallery .small-image .image {
+    width: 50%;
+    padding: 10px;
+    overflow: hidden;
+    position: relative;
+}
+
+#come .gallery .small-image .image img {
+    transition: .5s;
+}
+
+#come .gallery .small-image .image img:hover {
+    transform: scale(1.1);
+}
+
+#map .paragraph h1 {
+    color: white;
+    font-size: 4em;
+    font-family: sans-serif;
+    text-align: center;
+    margin: 50px;
+}
+
+#map .address {
+    display: flex;
+    justify-content: center;
+}
+
+#map .address .party select,
+.date input,
+.time input {
+    border: 1px solid rgb(183, 170, 170);
+    background-color: black;
+    color: white;
+    width: 300px;
+    padding: 10px;
+    margin: 10px;
+    font-size: 1.2em;
+}
+
+#map .box button {
+    border: 1px solid rgb(198, 67, 19);
+    background-color: rgb(255, 153, 0);
+    padding: 10px 20px;
+    transition: .5s;
+    color: black;
+    margin: 10px;
+}
+
+#map .box button:hover {
+    background-color: #0d0c11;
+    color: rgb(198, 67, 19);
+}
+
+#map .map iframe {
+    width: 100%;
+    margin: 50px 0px;
+}
